@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+**/auth.json
+**/credentials.json
+**/models-store.json
+*.pem
+*.key
+id_ed25519
+id_rsa
+
+# Pi agent state
+daily-agent/sessions/
+daily-agent-fast/sessions/
+daily-agent/settings.json
+daily-agent-fast/settings.json
+
+# Benchmark-generated artifacts
+**/attempts/
+**/agent-state/
+**/broker/
+**/workspaces/
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+*~
+.DS_Store
+
+# Local model files
+*.gguf
+*.safetensors
+*.onnx
+*.bin
