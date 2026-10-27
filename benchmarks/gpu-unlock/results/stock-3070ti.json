@@ -1,0 +1,88 @@
+{
+  "label": "stock-3070ti",
+  "timestamp_utc": "2026-10-27T02:08:40.386757+00:00",
+  "kernel": "7.0.0-38-generic",
+  "pytorch": "2.11.0+cu128",
+  "cuda_runtime": "12.8",
+  "gpu": "NVIDIA GeForce RTX 3070 Ti",
+  "compute_capability": [
+    8,
+    6
+  ],
+  "nvidia_smi_before": "NVIDIA GeForce RTX 3070 Ti, 595.99.02, 8192, 310.00, 47, 285, 405",
+  "benchmarks": [
+    {
+      "matrix_size": 2048,
+      "dtype": "torch.float16",
+      "tf32_allowed": false,
+      "repeats": 5,
+      "iterations_per_repeat": 20,
+      "median_ms": 0.5211,
+      "min_ms": 0.4695,
+      "max_ms": 0.5425,
+      "tflops": 32.971,
+      "operation": "FP16"
+    },
+    {
+      "matrix_size": 2048,
+      "dtype": "torch.bfloat16",
+      "tf32_allowed": false,
+      "repeats": 5,
+      "iterations_per_repeat": 20,
+      "median_ms": 0.5068,
+      "min_ms": 0.5017,
+      "max_ms": 0.5085,
+      "tflops": 33.898,
+      "operation": "BF16"
+    },
+    {
+      "matrix_size": 2048,
+      "dtype": "torch.float32",
+      "tf32_allowed": true,
+      "repeats": 5,
+      "iterations_per_repeat": 20,
+      "median_ms": 0.9676,
+      "min_ms": 0.9083,
+      "max_ms": 0.9747,
+      "tflops": 17.755,
+      "operation": "TF32_allowed"
+    },
+    {
+      "matrix_size": 4096,
+      "dtype": "torch.float16",
+      "tf32_allowed": false,
+      "repeats": 5,
+      "iterations_per_repeat": 20,
+      "median_ms": 3.2693,
+      "min_ms": 3.0023,
+      "max_ms": 3.6593,
+      "tflops": 42.04,
+      "operation": "FP16"
+    },
+    {
+      "matrix_size": 4096,
+      "dtype": "torch.bfloat16",
+      "tf32_allowed": false,
+      "repeats": 5,
+      "iterations_per_repeat": 20,
+      "median_ms": 3.402,
+      "min_ms": 3.0775,
+      "max_ms": 3.7151,
+      "tflops": 40.399,
+      "operation": "BF16"
+    },
+    {
+      "matrix_size": 4096,
+      "dtype": "torch.float32",
+      "tf32_allowed": true,
+      "repeats": 5,
+      "iterations_per_repeat": 20,
+      "median_ms": 6.6358,
+      "min_ms": 6.2977,
+      "max_ms": 7.243,
+      "tflops": 20.712,
+      "operation": "TF32_allowed"
+    }
+  ],
+  "nvidia_smi_after": "NVIDIA GeForce RTX 3070 Ti, 595.99.02, 8192, 310.00, 64, 1950, 9251"
+}
