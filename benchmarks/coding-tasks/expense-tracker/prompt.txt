@@ -1,0 +1,1 @@
+Repair the expense_tracker package so it meets all behavior described in README.md. Inspect the code, make the smallest clear fixes, and run the visible unittest suite. Preserve the public API, use only Python's standard library, and do not change the README or visible tests. Explain your changes and test results briefly.

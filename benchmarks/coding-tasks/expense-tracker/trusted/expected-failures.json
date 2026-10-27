@@ -1,0 +1,13 @@
+[
+  "test_acceptance.CategoryTests.test_case_and_whitespace",
+  "test_acceptance.CategoryTests.test_not_substring",
+  "test_acceptance.DateTests.test_both_boundaries",
+  "test_acceptance.DateTests.test_leap_day",
+  "test_acceptance.DateTests.test_same_day",
+  "test_acceptance.MonthlyTests.test_accumulates_same_month",
+  "test_acceptance.MonthlyTests.test_sorted_and_no_empty_months",
+  "test_acceptance.MonthlyTests.test_year_separation",
+  "test_acceptance.TotalTests.test_cents",
+  "test_acceptance.TotalTests.test_removal_updates_total",
+  "test_acceptance.TotalTests.test_tiny_amounts"
+]

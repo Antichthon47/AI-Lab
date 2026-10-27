@@ -1,0 +1,3 @@
+# Fresh benchmark-only CODEX_HOME; never copied over the user's configuration.
+oss_provider = "ollama"
+sandbox_mode = "workspace-write"

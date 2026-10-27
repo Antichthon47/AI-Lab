@@ -1,0 +1,26 @@
+[
+  {
+    "name": "transaction totals discard cents",
+    "test_class": "TotalTests",
+    "correct": "return sum((t.amount for t in self._transactions), Decimal(\"0.00\"))",
+    "buggy": "return sum((Decimal(int(t.amount)) for t in self._transactions), Decimal(\"0.00\"))"
+  },
+  {
+    "name": "category uses substring match",
+    "test_class": "CategoryTests",
+    "correct": "t.category.casefold() == category.strip().casefold()",
+    "buggy": "category.strip().casefold() in t.category.casefold()"
+  },
+  {
+    "name": "upper date bound excluded",
+    "test_class": "DateTests",
+    "correct": "start <= t.date <= end",
+    "buggy": "start <= t.date < end"
+  },
+  {
+    "name": "monthly key drops year",
+    "test_class": "MonthlyTests",
+    "correct": "transaction.date.strftime(\"%Y-%m\")",
+    "buggy": "transaction.date.strftime(\"%m\")"
+  }
+]

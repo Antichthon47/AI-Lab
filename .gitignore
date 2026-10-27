@@ -41,3 +41,18 @@ daily-agent-fast/settings.json
 *.safetensors
 *.onnx
 *.bin
+
+# Local Pi configurations
+/daily-agent/
+/daily-agent-fast/
+
+# Raw benchmarking output
+/benchmarks/results/
+/benchmarks/coding-tasks/expense-tracker/validation/
+
+# Machine-specific benchmark deployment
+/benchmarks/coding-tasks/expense-tracker/security/deployment.json
+
+# Local benchmark configuration backups
+*.backup
+*.disabled
