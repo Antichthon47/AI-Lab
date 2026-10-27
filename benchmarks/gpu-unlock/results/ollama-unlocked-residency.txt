@@ -1,0 +1,2 @@
+NAME                       ID              SIZE      PROCESSOR    CONTEXT    RUNNER      UNTIL              
+pi-qwen35-9b-16k:latest    30f30c86dea6    5.8 GB    100% GPU     16384      llamacpp    3 minutes from now    

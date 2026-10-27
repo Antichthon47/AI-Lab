@@ -1,0 +1,35 @@
+{
+  "model": "pi-qwen35-9b-16k",
+  "label": "stock-flash",
+  "num_gpu": 33,
+  "context": 16384,
+  "num_predict": 512,
+  "runs": [
+    {
+      "wall_seconds": 3.491,
+      "prompt_tokens": 69,
+      "output_tokens": 280,
+      "prompt_tokens_per_second": 1139.74,
+      "generation_tokens_per_second": 83.31,
+      "done_reason": "stop"
+    },
+    {
+      "wall_seconds": 3.557,
+      "prompt_tokens": 69,
+      "output_tokens": 280,
+      "prompt_tokens_per_second": 1156.44,
+      "generation_tokens_per_second": 80.14,
+      "done_reason": "stop"
+    },
+    {
+      "wall_seconds": 3.37,
+      "prompt_tokens": 69,
+      "output_tokens": 280,
+      "prompt_tokens_per_second": 1145.08,
+      "generation_tokens_per_second": 84.69,
+      "done_reason": "stop"
+    }
+  ],
+  "mean_generation_tokens_per_second": 82.71,
+  "mean_prompt_tokens_per_second": 1147.09
+}

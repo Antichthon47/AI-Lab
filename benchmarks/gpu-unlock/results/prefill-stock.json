@@ -1,0 +1,102 @@
+{
+  "label": "stock",
+  "timestamp_utc": "2026-10-27T02:52:26.061732+00:00",
+  "model": "pi-qwen35-9b-16k",
+  "num_ctx": 16384,
+  "num_gpu": 33,
+  "workloads": [
+    {
+      "repetitions": 100,
+      "runs": [
+        {
+          "run": 1,
+          "prompt_tokens": 3287,
+          "prompt_seconds": 1.0915,
+          "prompt_tokens_per_second": 3011.56,
+          "output_tokens": 2,
+          "done_reason": "stop"
+        },
+        {
+          "run": 2,
+          "prompt_tokens": 3287,
+          "prompt_seconds": 0.0643,
+          "prompt_tokens_per_second": 51109.42,
+          "output_tokens": 2,
+          "done_reason": "stop"
+        },
+        {
+          "run": 3,
+          "prompt_tokens": 3287,
+          "prompt_seconds": 0.0647,
+          "prompt_tokens_per_second": 50800.57,
+          "output_tokens": 2,
+          "done_reason": "stop"
+        }
+      ],
+      "median_tokens_per_second": 50800.57,
+      "name": "short"
+    },
+    {
+      "repetitions": 350,
+      "runs": [
+        {
+          "run": 1,
+          "prompt_tokens": 11622,
+          "prompt_seconds": 2.956,
+          "prompt_tokens_per_second": 3931.64,
+          "output_tokens": 2,
+          "done_reason": "stop"
+        },
+        {
+          "run": 2,
+          "prompt_tokens": 11622,
+          "prompt_seconds": 0.0683,
+          "prompt_tokens_per_second": 170190.96,
+          "output_tokens": 2,
+          "done_reason": "stop"
+        },
+        {
+          "run": 3,
+          "prompt_tokens": 11622,
+          "prompt_seconds": 0.0666,
+          "prompt_tokens_per_second": 174439.02,
+          "output_tokens": 2,
+          "done_reason": "stop"
+        }
+      ],
+      "median_tokens_per_second": 170190.96,
+      "name": "medium"
+    },
+    {
+      "repetitions": 700,
+      "runs": [
+        {
+          "run": 1,
+          "prompt_tokens": 8192,
+          "prompt_seconds": 2.6201,
+          "prompt_tokens_per_second": 3126.64,
+          "output_tokens": 16,
+          "done_reason": "length"
+        },
+        {
+          "run": 2,
+          "prompt_tokens": 8192,
+          "prompt_seconds": 0.0629,
+          "prompt_tokens_per_second": 130304.77,
+          "output_tokens": 16,
+          "done_reason": "length"
+        },
+        {
+          "run": 3,
+          "prompt_tokens": 8192,
+          "prompt_seconds": 0.0624,
+          "prompt_tokens_per_second": 131244.19,
+          "output_tokens": 16,
+          "done_reason": "length"
+        }
+      ],
+      "median_tokens_per_second": 130304.77,
+      "name": "long"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "model": "pi-qwen35-9b-16k",
+  "label": "stock-fullgpu",
+  "num_gpu": 33,
+  "context": 16384,
+  "num_predict": 512,
+  "runs": [
+    {
+      "wall_seconds": 3.596,
+      "prompt_tokens": 69,
+      "output_tokens": 280,
+      "prompt_tokens_per_second": 1153.29,
+      "generation_tokens_per_second": 80.81,
+      "done_reason": "stop"
+    },
+    {
+      "wall_seconds": 3.389,
+      "prompt_tokens": 69,
+      "output_tokens": 280,
+      "prompt_tokens_per_second": 1091.34,
+      "generation_tokens_per_second": 84.29,
+      "done_reason": "stop"
+    },
+    {
+      "wall_seconds": 3.513,
+      "prompt_tokens": 69,
+      "output_tokens": 280,
+      "prompt_tokens_per_second": 1039.22,
+      "generation_tokens_per_second": 81.33,
+      "done_reason": "stop"
+    }
+  ],
+  "mean_generation_tokens_per_second": 82.14,
+  "mean_prompt_tokens_per_second": 1094.62
+}

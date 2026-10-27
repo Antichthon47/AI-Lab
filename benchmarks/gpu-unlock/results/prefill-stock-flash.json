@@ -1,0 +1,102 @@
+{
+  "label": "stock-flash",
+  "timestamp_utc": "2026-10-27T03:15:28.977149+00:00",
+  "model": "pi-qwen35-9b-16k",
+  "num_ctx": 16384,
+  "num_gpu": 33,
+  "workloads": [
+    {
+      "repetitions": 30,
+      "runs": [
+        {
+          "run": 1,
+          "prompt_tokens": 1165,
+          "prompt_seconds": 0.4357,
+          "prompt_tokens_per_second": 2673.6,
+          "output_tokens": 2,
+          "done_reason": "stop"
+        },
+        {
+          "run": 2,
+          "prompt_tokens": 1165,
+          "prompt_seconds": 0.4285,
+          "prompt_tokens_per_second": 2718.94,
+          "output_tokens": 2,
+          "done_reason": "stop"
+        },
+        {
+          "run": 3,
+          "prompt_tokens": 1165,
+          "prompt_seconds": 0.423,
+          "prompt_tokens_per_second": 2754.44,
+          "output_tokens": 2,
+          "done_reason": "stop"
+        }
+      ],
+      "median_tokens_per_second": 2718.94,
+      "name": "short"
+    },
+    {
+      "repetitions": 75,
+      "runs": [
+        {
+          "run": 1,
+          "prompt_tokens": 2907,
+          "prompt_seconds": 0.7754,
+          "prompt_tokens_per_second": 3749.15,
+          "output_tokens": 2,
+          "done_reason": "stop"
+        },
+        {
+          "run": 2,
+          "prompt_tokens": 2907,
+          "prompt_seconds": 0.794,
+          "prompt_tokens_per_second": 3661.08,
+          "output_tokens": 2,
+          "done_reason": "stop"
+        },
+        {
+          "run": 3,
+          "prompt_tokens": 2907,
+          "prompt_seconds": 0.7357,
+          "prompt_tokens_per_second": 3951.1,
+          "output_tokens": 2,
+          "done_reason": "stop"
+        }
+      ],
+      "median_tokens_per_second": 3749.15,
+      "name": "medium"
+    },
+    {
+      "repetitions": 150,
+      "runs": [
+        {
+          "run": 1,
+          "prompt_tokens": 5857,
+          "prompt_seconds": 1.1175,
+          "prompt_tokens_per_second": 5241.06,
+          "output_tokens": 2,
+          "done_reason": "stop"
+        },
+        {
+          "run": 2,
+          "prompt_tokens": 5857,
+          "prompt_seconds": 1.2073,
+          "prompt_tokens_per_second": 4851.37,
+          "output_tokens": 2,
+          "done_reason": "stop"
+        },
+        {
+          "run": 3,
+          "prompt_tokens": 5857,
+          "prompt_seconds": 1.2221,
+          "prompt_tokens_per_second": 4792.58,
+          "output_tokens": 2,
+          "done_reason": "stop"
+        }
+      ],
+      "median_tokens_per_second": 4851.37,
+      "name": "long"
+    }
+  ]
+}
